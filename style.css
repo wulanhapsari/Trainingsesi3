@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin-top: 10px;
+}
+ul li a:hover{
+    background-color: brown;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%;-50%);
+}
+.title h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 70px;
+
+}
+.title h2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%;-50%);
+}
+.btn{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.7s ease;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn:hover{
+    background: white;
+    color: brown;
+}
+.galeri{
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+.galeri .foto img{ 
+    width: 300px;
+}
+
+.foto {
+    margin:20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.produk{
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.produk .gambar img{ 
+    width: 300px;
+}
+.produk h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+}
+.produk p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.gambar {
+    border: 1px solid burlywood;
+    margin:15px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.gambar a{
+    border: 1px solid rgb(94, 29, 94);
+    padding:15px;
+    color:white;
+    background:rgb(94, 29, 94);
+    text-decoration: none;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.gambar img{
+    width: 200px;
+    height: 200px;
+}
+
+.form p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+legend {
+    color: palegoldenrod;
+}
+.formprofile td{
+    color: white
+}
+.footer {
+    text-align: center;
+    margin: 20px; 
+    color:rgb(146, 120, 86);
+    background:burlywood;
+    height: 20px;
+}
+
+.footer p{
+    padding-top:15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:rgb(146, 120, 86);
+}
+.profile b{
+    color: white
+}
+.contact-section{
+    padding: 40px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    margin:40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background:burlywood;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+.artikel{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    color: white;
+}
+.artikel h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 25px;
+}
+.artikel h2{
+        font-family: sans-serif;
+        color: white;
+        font-size: 15px;
+}
+.artikel p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.fotoartikel {
+    margin: 10px;
+    padding: 0 10px;
+    text-align: justify;
+}
+.gambar img{
+    width: 200px;
+    height: 200;
+    margin-top: 10px;
+}
